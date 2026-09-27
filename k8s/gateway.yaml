@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: gateway
-          image: ghcr.io/esqavator/quickticket-gateway:948c0e6c9cd45260885b104f1fcc1f12629ff0bc
+          image: ghcr.io/esqavator/quickticket-gateway:23583e28ce9fe66b969adcbc3c09e0f573278a21
           imagePullPolicy: Always
           ports:
             - name: http
