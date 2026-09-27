@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: events
-          image: ghcr.io/esqavator/quickticket-events:23583e28ce9fe66b969adcbc3c09e0f573278a21
+          image: ghcr.io/esqavator/quickticket-events:b6f70905f9d21a6273dc7ea37996024ec5341c66
           imagePullPolicy: Always
           ports:
             - name: http
