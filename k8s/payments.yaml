@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: payments
-          image: ghcr.io/esqavator/quickticket-payments:61b2fa9d59242dacf1522c0647309f149c0c72fe
+          image: ghcr.io/esqavator/quickticket-payments:948c0e6c9cd45260885b104f1fcc1f12629ff0bc
           imagePullPolicy: Always
           ports:
             - name: http
