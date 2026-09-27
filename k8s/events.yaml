@@ -17,7 +17,7 @@ spec:
       containers:
         - name: events
           image: quickticket-events:v1
-          imagePullPolicy: Never
+          imagePullPolicy: Always
           ports:
             - name: http
               containerPort: 8081
