@@ -6,7 +6,6 @@ metadata:
     app: gateway
     version: "v2"
 spec:
-  progressDeadlineSeconds: 60
   replicas: 1
   selector:
     matchLabels:
@@ -18,7 +17,7 @@ spec:
     spec:
       containers:
         - name: gateway
-          image: ghcr.io/esqavator/quickticket-gateway:does-not-exist
+          image: ghcr.io/esqavator/quickticket-gateway:23583e28ce9fe66b969adcbc3c09e0f573278a21
           imagePullPolicy: Always
           ports:
             - name: http
